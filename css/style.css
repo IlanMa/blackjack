@@ -1,0 +1,74 @@
+body{
+    background-color: #cccccc;
+}
+
+#board tr td {
+    border: solid black 2px;
+    width: 1300px;
+    height: 200px;
+}
+
+.cards {
+    display: inline;
+    margin: 0 5px 0 5px; 
+}
+
+#hit {
+    background-color: green;
+    font-size: 16px;
+    color: white;
+    display: inline;
+    visibility:hidden;
+}
+
+#stand {
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    display: inline;
+    visibility:hidden;
+}
+
+#buttons  {
+    width: 200px;    
+}
+
+#middle {
+    font-size: 80px;
+    width: 1000px;
+    height: 100px;    
+}
+
+#playerscore {
+    font-size: 20px;    
+}
+
+#playercardstest {
+    height: 120px;
+    margin: 15px 0 0 0;
+}
+
+#dealergoeshere {
+    height: 120px;
+    margin: 30px 0 0 0;
+}
+
+#dealerscore { 
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+
+#start {
+    font-size: 20px;
+    background-color: green;
+    color: white; 
+    margin: 30px 0 0 0;   
+}
+
+#stupid1 {
+    display: inline;
+}
+
+#stupid2 {
+    display:inline;
+}
